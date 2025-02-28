@@ -13,9 +13,11 @@ def suma():
     print(num1 + num2)
 
 def sumaParametros(num1,num2):
-    print(num1+num2)
+    resultado=num1+num2
+    return resultado
 
-sumaParametros(5,7)
+almacenaResultado=(sumaParametros(5,7))
+print(almacenaResultado)
 sumaParametros(2,3)
 sumaParametros(35,358)
     
